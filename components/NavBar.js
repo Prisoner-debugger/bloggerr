@@ -13,7 +13,7 @@ export default function NavBar() {
     <header>
       <h4 className="logo">code-blogger</h4>
       <nav ref={navRef}>
-        <a href="http://localhost:3000/">Home</a>
+        <a href="https://bloggerr-tau.vercel.app/">Home</a>
         <a href="#">Featured</a>
         <a href="#">About</a>
         <a href="#">Contact</a>
