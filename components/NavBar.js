@@ -1,4 +1,6 @@
 import React from "react";
+import Link from "next/link";
+
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
@@ -13,7 +15,9 @@ export default function NavBar() {
     <header>
       <h4 className="logo">code-blogger</h4>
       <nav ref={navRef}>
-        <a href="https://bloggerr-tau.vercel.app/">Home</a>
+        <Link href="/">
+          <a>Home</a>
+        </Link>
         <a href="#">Featured</a>
         <a href="#">About</a>
         <a href="#">Contact</a>
